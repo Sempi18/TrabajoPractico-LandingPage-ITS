@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page ITS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/img/cropped-logoITSpara-Web-1.png">
+    <!-- Importar fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Librería de Iconos (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>ITS - Instituto Tecnológico</h1>
+            <ul>
+                <li><a href="#" class="menu-link" data-section="about">Sobre Nosotros</a></li>
+                <li><a href="#" class="menu-link" data-section="programs">Carreras</a></li>
+                <li><a href="#" class="menu-link" data-section="contact">Contacto</a></li>
+                <li><a href="#" class="menu-link" data-section="experiences">Experiencias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="content-wrapper">
+        <section id="about" class="content-section active">
+            <h3>Sobre Nosotros</h3>
+            <p>#EducaciónPúblicaGratuita</p>
+            <br>
+            <p>Desde el 10 de abril de 2017
+
+                Promovemos la innovación y construcción de habilidades, estableciéndonos como una alternativa de educación superior de alta calidad.</p>
+                <br>
+            <p>El sello que distingue nuestra oferta educativa es la manera de aprender, que se lleva a cabo  mediante clases prácticas, laboratorios, prácticas profesionalizantes y clases virtuales, generando un ambiente de constantes desafíos.</p>
+            <br>
+            <p>La educación técnica superior tiene como MISIÓN la formación de técnicos superiores con habilidades, competencias y capacidades de alto nivel adecuadas a las demandas sociales, los avances científicos, tecnológicos y a los requerimientos productivos.
+
+            </p>
+            <br>
+            <p>Las actuales demandas sociales y condiciones socio-económicas impulsan la creación de carreras de mediano plazo y sobre todo las de orientación técnica superior, en este contexto el Instituto Técnico Superior Cipolletti tiene por finalidad satisfacer las necesidades del mercado laboral que demanda profesionales intermedios altamente capacitados, éticos y responsables.
+
+                Por lo que se hace necesario realizar acuerdos con empresas de bienes y servicios e instituciones locales para generar espacios de prácticas reales.
+                
+                Y es en este ámbito donde surge la necesidad de orientar el perfil de los estudiantes hacia las tecnologías libres.
+                
+                El software libre y de código abierto se ha establecido en los últimos años como un sistema tecnológico que incorpora tanto el sistema operativo como aplicativos con funcionalidades que abarcan casi la totalidad de las actividades informatizadas. Nuestro Instituto pretende dar respuesta a la necesidad de personal calificado en este segmento, ya que el crecimiento del software libre y de código abierto atrae la atención de empresas y administraciones públicas. El software libre y de código abierto ofrece, además de las ventajas vinculadas a los costos, la posibilidad de auditoría y personalización.
+                
+                </p>
+        </section>
+
+        <section id="programs" class="content-section">
+            <h3>Nuestras Carreras</h3>
+            <ul>
+                <li><h1>TSDSFS-Técnico Superior en Desarrollo de Software Full Stack</h1>
+                    <br>
+                    MODALIDAD DE CURSADA
+                    SEMIPRESENCIAL
+                    50% PRESENCIAL y 50% VIRTUAL
+                    POR LO QUE ASISTÍS 2 o 3 DÍAS POR SEMANA AL ITS
+                    <br>
+                    TÍTULO DE VALIDEZ NACIONAL
+                    CON CERTIFICACIONES EN COMPETENCIAS
+                    <br>
+                    22 MATERIAS (2.048 HORAS)
+                    3 AÑOS DE DURACIÓN
+
+                </li>
+                <br>
+                <li><h1>TSD-Técnico Superior en DevOps</h1>
+                    <br>
+                    MODALIDAD DE CURSADA
+                    SEMIPRESENCIAL
+                    50% PRESENCIAL y 50% VIRTUAL
+                    POR LO QUE ASISTÍS 2 o 3 DÍAS POR SEMANA AL ITS
+                    <br>
+                    TÍTULO DE VALIDEZ NACIONAL
+                    CON CERTIFICACIONES EN COMPETENCIAS
+                    <br>
+                    24 MATERIAS (2.304 HORAS)
+                    3 AÑOS DE DURACIÓN
+                </li>
+                <br>
+                <li><h3>TSSITI-Técnico Superior en Soporte de Infraestructura de Tecnología de la Información</h3>
+                    <br>
+                    No abriremos inscripciones para esta carrera.
+                    Desde 2017 acompañamos ocho promociones de SysAdmin y consideramos que es momento de evolucionar a DevOps.
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h3>Contacto</h3>
+            <p>Email: idireccion@itscipolletti.edu.ar. | Tel: 542994771976.</p>
+        </section>
+
+        <section id="experiences" class="content-section">
+            <h3>Experiencias de los alumnos</h3>
+            <textarea id="experience-input" placeholder="Deja tu experiencia aquí..."></textarea>
+            <button id="submit-experience">Enviar</button>
+            <div id="experience-list"></div>
+        </section>
+    </div>
+
+    <div id="news-wrapper">
+        <button id="toggle-news">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <div id="news-content">
+            <div class="news-box" id="news1">
+                ¿Querés hacer un
+                Test Vocacional con Inteligencia Artificial en tu Wsp?
+
+                <img src="./assets/img/qrcode-generado-300x300.png" class="in">
+            </div>
+            <div class="news-box" id="news2">
+                <h3>Tercer llamado a Concurso 2024</h3>
+                La Dirección del Instituto Técnico Superior Cipolletti realiza el Tercer Llamado a Concurso para la cobertura de horas cátedras, condición interino a término, correspondientes a la «Tecnicatura Superior en Desarrollo de Software Full Stack – Res. 01599/22» (Disposición N° 749/2024 DES) y a la «Tecnicatura Superior en Soporte de Infraestructura de Tecnología de la Información – Res. 00902/16» (Disposición N° 750/2024 DES).
+            </div>
+            <div class="news-box" id="news3">
+                <h3>Expo Patagonia Universidad</h3>
+                Con nuestros estudiantes de 2do año FULL STACK Mariano, Mateo y Leandro participamos de la «Expo Patagonia Universidad», organizada por el IUPA en la Asociación Española.
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre el ITS</h3>
+                <p>El Instituto Tecnológico Superior ofrece educación de calidad con un enfoque en tecnología y desarrollo profesional.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#programs">Carreras</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#experiences">Experiencias</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-phone"></i> 542994771976.</p>
+                <p><i class="fas fa-envelope"></i> direccion@itscipolletti.edu.ar.</p>
+                <p><i class="fas fa-map-marker-alt"></i> Calle Ejemplo 123, Ciudad, País</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Instituto Tecnológico Superior. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./javascript/scrip.js"></script>
+</body>
+</html>
